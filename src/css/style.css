@@ -1,0 +1,31 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    font-family: "Shabnam";
+}
+.container{
+    display:flex;
+     justify-content: center ;
+     align-items: center;
+    height: 100vh;
+}
+.todo-main-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #dcdcdc;
+    border-radius: 5px;
+    
+}
+#outlined-textarea{
+width: 400px;   
+}
+.submit-btn{
+    height: 54px;
+}
+.form-container{
+    border: 1px solid #dcdcdc;
+    border-radius: 5px;
+    box-shadow:  1px 1px 10px #dcdcdc;
+    text-align: center;
+}
